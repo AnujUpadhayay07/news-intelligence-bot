@@ -1,0 +1,8 @@
+venv/
+.env
+__pycache__/
+vector_store/
+*.pem
+.DS_Store
+chroma_db/
+Procfile
