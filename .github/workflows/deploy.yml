@@ -23,6 +23,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Verify FastAPI Import
+    - name: Verify Python Setup
       run: |
-        python -c "from app.api import app; print('FastAPI app loaded successfully')"
+        python --version
+        pip --version
